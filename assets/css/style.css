@@ -2509,6 +2509,7 @@ textarea.input-field {
 
 #page-container {
   padding-top: 300px !important;
+  padding-bottom: 300px !important;
 }
 
 #full_menu {
@@ -2518,8 +2519,6 @@ textarea.input-field {
   font-family: Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -webkit-text-size-adjust: 100% !important;
-  padding-bottom: 300px !important;
-
 }
 
 #sticky-footer {
@@ -2671,25 +2670,4 @@ ul#category-links {
   /* display: block; */
   /* margin: 5px; */
   /* border-bottom: 1px solid var(--primary-color); */
-}
-
-@media only screen and (max-width: 600px) {
-  #full_menu {
-    margin: 0;
-    padding: 7% !important;
-  }
-
-  #sticky-footer {
-    left: 7% !important;
-    right: auto !important;
-    max-width: 100% !important;
-  }
-
-  #category-links a {
-    font-size: 10px;
-  }
-
-  .menu-section {
-    grid-template-columns: auto;
-  }
 }

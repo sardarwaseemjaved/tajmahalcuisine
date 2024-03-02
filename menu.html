@@ -20,10 +20,183 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <style>
+    #page-container {
+      padding-top: 150px !important;
+      padding-bottom: 300px !important;
+    }
+
+    #full_menu {
+      margin: 0;
+      padding: 14% !important;
+      padding-top: 50px !important;
+      font-family: Arial, sans-serif !important;
+      -webkit-font-smoothing: antialiased !important;
+      -webkit-text-size-adjust: 100% !important;
+    }
+
+    #sticky-footer {
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+      /* color: #cc6600; */
+      line-height: 1em;
+      font-family: 'El Messiri', Helvetica, Arial, Lucida, sans-serif;
+      box-sizing: border-box;
+      outline: 0;
+      font-size: 100%;
+      -webkit-text-size-adjust: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      background-size: cover;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      border: 0 solid #333;
+      animation-timing-function: linear;
+      animation-duration: .2s;
+      /* background-color: var(--primary-color-faded); */
+      /* background: rgba(0,0,0,0.5); */
+      border-radius: 5px 5px 5px 5px;
+      overflow: hidden;
+      padding-top: 8px !important;
+      padding-right: 5px !important;
+      padding-bottom: 8px !important;
+      padding-left: 5px !important;
+      margin-top: 0px !important;
+      margin-right: 0px !important;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      position: fixed !important;
+      bottom: 10px;
+      top: auto;
+      left: 14% !important;
+      right: auto !important;
+      max-width: 70%;
+      align-self: center !important;
+    }
+
+    .cat_heading {
+      text-align: center;
+      border: 1px solid var(--primary-color);
+      border-radius: 5px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+
+    #category-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul#category-links {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+
+    #category-links li {
+      display: inline-block;
+      margin-bottom: 5px;
+      margin-left: 2px;
+      /* margin-right: 20px; */
+    }
+
+    #category-links a {
+      direction: ltr;
+      visibility: visible;
+      box-sizing: border-box;
+      margin: 0;
+      outline: 0;
+      -webkit-text-size-adjust: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      font-size: 15px;
+      line-height: 1;
+      border: 0 solid #666;
+      pointer-events: auto;
+      cursor: pointer;
+      display: flex !important;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px 15px 15px 15px;
+      overflow: hidden;
+      border-width: 1px;
+      border-color: var(--primary-color);
+      transition: background-color 300ms ease 0ms;
+      /* background-color: var(--primary-color); */
+      background-color: linear-gradient(135deg, #343a40 0%, #667584 50%, #4e5256 51%, #242a30 71%, #343a40 100%);
+      padding-top: 8px;
+      padding-right: 10px;
+      padding-bottom: 8px;
+      padding-left: 10px;
+      font-family: 'ABeeZee', Helvetica, Arial, Lucida, sans-serif;
+      font-weight: 400;
+      color: var(--white) !important;
+      font-style: unset;
+      background: linear-gradient(to bottom, #333, #000);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+      /* transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; */
+
+    }
+
+    #category-links a:hover {
+      background-color: var(--primary-color-faded);
+    }
+
+    .note {
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+      font-family: 'El Messiri', Helvetica, Arial, Lucida, sans-serif;
+      word-wrap: break-word;
+      line-height: 1.3em;
+      text-align: left;
+      box-sizing: border-box;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      color: #ffffff;
+
+      position: relative;
+      background-size: cover;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      animation-timing-function: linear;
+      animation-duration: .2s;
+      word-wrap: break-word;
+      line-height: 1.3em;
+      background-color: var(--primary-color);
+      border-radius: 10px 10px 10px 10px;
+      overflow: hidden;
+      min-height: 32px;
+      padding-top: 18px !important;
+      padding-bottom: 18px !important;
+      padding-left: 23px !important;
+      padding-right: 23px !important;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 35px !important;
+      text-align: left;
+    }
+
+    .menu-section {
+      display: grid;
+      grid-template-columns: auto auto;
+      column-gap: 10px;
+      row-gap: 10px;
+    }
+
+    .menu-item {
+      /* grid-column: 1 / 2; */
+      /* display: block; */
+      /* margin: 5px; */
+      /* border-bottom: 1px solid var(--primary-color); */
+    }
+
     @media only screen and (max-width: 600px) {
       #page-container {
-        padding-top: 0px !important;
-        padding-bottom: 80px !important;
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
       }
 
       #full_menu {
@@ -35,8 +208,8 @@
       }
 
       #sticky-footer {
-        left: 7% !important;
-        right: auto !important;
+        left: 3% !important;
+        right: 3% !important;
         max-width: 100% !important;
       }
 
@@ -123,7 +296,7 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
+      <a href="./index.html" class="logo">
         <!-- <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home"> -->
         <img src="./assets/images/LOGO_NO_BG.png" width="75" height="50" alt="Taj Mahal - Home">
       </a>
@@ -231,7 +404,7 @@
   <!-- 
     - #menu
   -->
-  <div id="page-container" style="margin-top: 150px;">
+  <div id="page-container">
     <div id="full_menu">
     </div>
   </div>

@@ -1,5 +1,71 @@
 const jsonData = [
     {
+        "name": "BEVERAGES",
+        "description": "",
+        "items": [
+            {
+                "name": "Mango Lassi ★",
+                "description": "refreshing yogurt drink blended with mangoes and homemade yogurt",
+                "price": 4.95
+            },
+            {
+                "name": "Strawberry Lassi ★",
+                "description": "refreshing yogurt drink blended with strawberries and homemade yogurt",
+                "price": 4.95
+            },
+            {
+                "name": "Rose Lassi",
+                "description": "refreshing yogurt drink blended with rose water, sugar, and homemade yogurt",
+                "price": 4.95
+            },
+            {
+                "name": "Mango Soy Shake",
+                "description": "shake made with mangoes and soymilk",
+                "price": 4.95
+            },
+            {
+                "name": "Mango Lemonade (One free refill)",
+                "description": '',
+                "price": 3.95
+            },
+            {
+                "name": "Indian Tea",
+                "description": '',
+                "price": 3.50
+            },
+            {
+                "name": "Indian Coffee",
+                "description": "special coffee made with hot milk",
+                "price": 3.50
+            },
+            {
+                "name": "Herbal Tea",
+                "description": "chamomile, orange spice, green tea",
+                "price": 2.95
+            },
+            {
+                "name": "Mineral Water",
+                "description": '',
+                "price": 2.95
+            },
+            {
+                "name": "Fort Lime",
+                "description": "sweetened, homemade lime juice blended with club soda and spices",
+                "price": 3.95
+            },
+            {
+                "name": "Soft Drinks",
+                "description": "Coke, Diet Coke, Dr. Pepper, Lemonade, Sprite, and Iced Tea",
+                "price": 2.50
+            },
+            {
+                "name": "Ginger Beer (Non-alcoholic)",
+                "description": '',
+                "price": 3.95
+            }
+        ]
+    },
+    {
         "name": "ACCOMPANIMENTS",
         "description": "",
         "items": [

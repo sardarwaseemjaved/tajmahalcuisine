@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "tajmahalcurrytandoori"
-  }
+  },
+  "targets": {
+    "tajmahalcurrytandoori": {
+      "hosting": {
+        "tajmahalcuisine": [
+          "tajmahalcuisine"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

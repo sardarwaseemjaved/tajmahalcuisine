@@ -1,463 +1,237 @@
 const jsonData = [
     {
-        "name": "BEVERAGES",
+        "name": "APPETIZER",
         "description": "",
         "items": [
             {
-                "name": "Mango Lassi ★",
-                "description": "refreshing yogurt drink blended with mangoes and homemade yogurt",
-                "price": 4.95
+                "name": "Samosa",
+                "description": "Traditional triangular pastries stuffed with spicy filling"
             },
             {
-                "name": "Strawberry Lassi ★",
-                "description": "refreshing yogurt drink blended with strawberries and homemade yogurt",
-                "price": 4.95
+                "name": "Vegetable Pakoras",
+                "description": "Potatoes, eggplant, and onions wrapped in gram flour batter, fried to perfection"
             },
             {
-                "name": "Rose Lassi",
-                "description": "refreshing yogurt drink blended with rose water, sugar, and homemade yogurt",
-                "price": 4.95
-            },
-            {
-                "name": "Mango Soy Shake",
-                "description": "shake made with mangoes and soymilk",
-                "price": 4.95
-            },
-            {
-                "name": "Mango Lemonade (One free refill)",
-                "description": '',
-                "price": 3.95
-            },
-            {
-                "name": "Indian Tea",
-                "description": '',
-                "price": 3.50
-            },
-            {
-                "name": "Indian Coffee",
-                "description": "special coffee made with hot milk",
-                "price": 3.50
-            },
-            {
-                "name": "Herbal Tea",
-                "description": "chamomile, orange spice, green tea",
-                "price": 2.95
-            },
-            {
-                "name": "Mineral Water",
-                "description": '',
-                "price": 2.95
-            },
-            {
-                "name": "Fort Lime",
-                "description": "sweetened, homemade lime juice blended with club soda and spices",
-                "price": 3.95
-            },
-            {
-                "name": "Soft Drinks",
-                "description": "Coke, Diet Coke, Dr. Pepper, Lemonade, Sprite, and Iced Tea",
-                "price": 2.50
-            },
-            {
-                "name": "Ginger Beer (Non-alcoholic)",
-                "description": '',
-                "price": 3.95
+                "name": "Pakora",
+                "description": ""
             }
         ]
     },
     {
-        "name": "ACCOMPANIMENTS",
+        "name": "KARAHI AND HANDI",
         "description": "",
         "items": [
             {
-                "name": "Papadam (V) (Gluten-free)",
-                "description": "wafers made from lentil flour and flavored with black pepper and cumin seed baked in a tandoori oven",
-                "price": 3.95
+                "name": "Chicken Ginger",
+                "description": "Boneless chicken thigh cooked with ginger in tomato gravy"
             },
             {
-                "name": "Cucumber Raita ★",
-                "description": "a tangy mixture of cucumber, and spices mixed with fresh homemade yogurt",
-                "price": 3.95
+                "name": "Chicken Tikka Masala",
+                "description": "Chargrilled chicken pieces in tomato ginger, garlic butter, cream thick curry"
             },
             {
-                "name": "Onion Salad (V)",
-                "description": "sliced onions, sliced hot peppers, and lemon wedges seasoned with spices",
-                "price": 2.95
+                "name": "Butter Chicken",
+                "description": "Tender boneless chicken cooked in butter in special saffron coloured sauce"
             },
             {
-                "name": "Kachumbar (V)",
-                "description": "diced onion, tomato & cucumber mixed with cilantro, lemon juice, and spices",
-                "price": 3.75
+                "name": "Murgh Cholay",
+                "description": "Chicken prepared with chickpeas and spices"
             },
             {
-                "name": "Mint or Tamarind Chutneys (V)",
-                "description": "chutney is a condiment of fruit or vegetables, spices, and herbs blended together",
-                "price": 1.75
+                "name": "Tawa Qeema - Lamb",
+                "description": "Minced lamb cooked with herbs and spices on a flat pan"
             },
             {
-                "name": "Mango Chutneys (V)",
-                "description": "chutney is a condiment of mango, spices, and herbs blended together",
-                "price": 2.50
+                "name": "Shahi Haleem (Beef)",
+                "description": "A special amalgamation of slow cooked beef, lentils and aromatic spices"
             },
             {
-                "name": "Mixed Pickel (V)",
-                "description": "",
-                "price": 1.75
+                "name": "Mutton Paya (Lamb)",
+                "description": "Traditional Pakistani dish of slow cooked mutton trotters in a mild gravy"
             },
             {
-                "name": "Basmati Rice (V)",
-                "description": "special aromatic long grain rice imported from India",
-                "price": 3.99
+                "name": "Nihari",
+                "description": "Beef shank curry slow-cooked with special herbs and spices"
+            },
+            {
+                "name": "Palak Gosht (Lamb & Chicken)",
+                "description": "Creamy spinach with meat"
+            },
+            {
+                "name": "Dal Gosht (Lamb & Chicken)",
+                "description": "Lentils cooked with meat, whole red chillies and fried onion"
+            },
+            {
+                "name": "Chicken Handi",
+                "description": "Chicken cubes cooked in spices, butter, cream and tomato gravy (achari option with pickles)"
+            },
+            {
+                "name": "Handi (Mutton)",
+                "description": "Mutton cubes cooked in spices, butter, cream and tomato gravy (achari option with pickles available)"
+            },
+            {
+                "name": "PESHAWARI KARAHI (Lamb & Chicken)",
+                "description": "Creating a delicious Peshawari Chicken Karahi is a journey through the flavors of Pakistan. This recipe hails from the city of Peshawar, known for its rich culinary heritage and vibrant spices. (For 2 people serving)"
+            },
+            {
+                "name": "LAHORI KARAHI",
+                "description": "Lahori Karahi is a beloved dish hailing from the vibrant streets of Lahore, Pakistan. It’s a rich and aromatic curry cooked with tender lamb/chicken pieces and a medley of spices, creating a symphony of flavors that dance on your palate."
             }
         ]
     },
     {
-        "name": "APPETIZERS",
-        "description": "All appetizers served with mint and tamarind chutneys.",
-        "items": [
-            {
-                "name": "VEGETABLE SAMOSA (G) (V) ★",
-                "description": "potatoes, green peas, and spices wrapped in a homemade flour pastry dough and deep-fried",
-                "price": 5.50
-            },
-            {
-                "name": "VEGETABLE PAKORA (V)",
-                "description": "seasoned mixed vegetables mixed with chickpea flour and deep-fried",
-                "price": 6.95
-            },
-            {
-                "name": "CHICKEN PAKORA ★",
-                "description": "boneless chicken tenders seasoned and dipped in a chickpea batter and deep-fried",
-                "price": 7.95
-            },
-            {
-                "name": "ASSORTED SNACKS",
-                "description": "vegetable samosa, vegetable pakora, and chicken pakora",
-                "price": 9.95
-            }
-        ]
-    },
-    {
-        "name": "SOUPS",
+        "name": "VEGETABLES",
         "description": "",
         "items": [
             {
-                "name": "Saag Shorba",
-                "description": "delicious soup made from spinach, onions, tomatoes, and cream",
-                "price": 3.99
+                "name": "BAINGAN BHARTA",
+                "description": "A beloved dish in Indian cuisine, is a flavorful concoction of roasted eggplant mashed with green beans aromatic spices and vegetables."
             },
             {
-                "name": "Daal Soup (V)",
-                "description": "delicious soup made from yellow lentils, onions, tomatoes, and spices",
-                "price": 3.99
+                "name": "Paalak",
+                "description": "Spinach cooked with onions, garlic, ginger, tomatoes, cream and spices"
+            },
+            {
+                "name": "Daal",
+                "description": ""
             }
         ]
     },
     {
-        "name": "TANDOORI",
-        "description": "Tandoor is a large cylindrical clay oven in which heat is produced from constant burning coal at the bottom. Tandoori dishes are grilled on a skewer without touching any surface. Naan breads are prepared by slapping on the inner hot wall of the tandoor. Tandoori specialties are served sizzling, with onions, bell peppers, and a side of rice.",
-        "note": "Note: Entrees served mild, medium, hot or very hot with side of rice and garnished with cilantro. Please let us know of any food allergy, intolerance or dietary restrictions.",
-        "items": [
-            {
-                "name": "Chicken Tikka",
-                "description": "boneless chicken breast marinated in yogurt, garlic, ginger and spices, barbecued over tandoor",
-                "price": 18.50
-            },
-            {
-                "name": "Chicken Tandoori ★",
-                "description": "boneless chicken thigh marinated in yogurt, garlic, ginger and spices, barbecued over tandoor",
-                "price": 18.50
-            },
-            {
-                "name": "Shrimp Tandoori",
-                "description": "jumbo shrimp marinated in yogurt, garlic, ginger and spices, barbecued over tandoor",
-                "price": 20.50
-            }
-        ]
-    },
-    {
-        "name": "CHICKEN",
+        "name": "RICE",
         "description": "",
         "items": [
             {
-                "name": "Chicken Tikka Masala ★",
-                "description": "Tandoori chicken breast cooked with bell pepper, onions, tomatoes, garlic, ginger, cream and spices",
-                "price": 16.95
+                "name": "Biryani",
+                "description": "Biryani is a mixed rice dish, mainly popular in South Asia. It is made with rice, some type of meat and spices. To cater to vegetarians, in some cases, it is prepared by substituting vegetables for the meat. Sometimes eggs and/or potatoes are also added. Biryani is known for its aroma and flavor. Fresh herbs, saffron, and basmati rice give it a sweet-floral aroma that hits the nose before you taste it. Whole garam masala, fried onions, and marinated meat provide warmth and subtle heat to the dish. Overall, it tastes like a savory, spiced rice pilaf."
             },
             {
-                "name": "Chicken Makhani (Butter) ★",
-                "description": "Tandoori chicken cooked with onions, garlic, ginger, tomatoes, cashews nuts, golden raisins, butter, cream and spices",
-                "price": 16.95
+                "name": "Kabuli Pulao",
+                "description": "Qabeli palaw is a variety of pilaf made in Afghanistan. The core ingredients are steamed rice mixed with caramelized carrots and raisins as well as marinated lamb meat. Qabeli Palaw is commonly garnished with almonds and pistachios."
             },
             {
-                "name": "Chicken Coconut Kurma★",
-                "description": "Chicken cooked with coconut milk, onion, garlic, tomatoes, golden raisins and spices",
-                "price": 16.95
+                "name": "Lamb Shank Qabuli",
+                "description": "Lamb shank seasoned with natural spices, raisons and carrots topping with basmati rice."
             },
             {
-                "name": "Chicken Saag",
-                "description": "Chicken cooked with spinach, onion, garlic, ginger, cream and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Chicken Curry",
-                "description": "Traditional dish cooked with boneless chicken, garlic, ginger, tomato and curry spices",
-                "price": 16.95
-            },
-            {
-                "name": "Chicken Aloo",
-                "description": "Traditional dish cooked with boneless chicken, potatoes, garlic, ginger, tomato and curry spices",
-                "price": 16.95
-            },
-            {
-                "name": "Pineapple Chicken",
-                "description": "Breast meat cooked with potatoes, pineapple, tomatoes, onions, garlic, ginger, coconut milk and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Chicken Mushroom",
-                "description": "Chicken thigh cooked with mushroom, bell pepper, onion, garlic, ginger, tomatoes and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Chicken Briyani",
-                "description": "Basmati rice cooked with chicken, onions, garlic, ginger, cashew nuts, raisins and spices served with side of raita",
-                "price": 17.95
+                "name": "Pulao Kabab",
+                "description": "A steaming plate of freshly cooked pulao, accompanied by two delectable Shami kababs, a fresh salad, and refreshing raita, along with two chicken pieces."
             }
         ]
     },
     {
-        "name": "LAMB",
+        "name": "NAAN AND ROTI",
         "description": "",
         "items": [
             {
-                "name": "Lamb Boti Masala ★",
-                "description": "Lamb cooked with bell peppers, onions, garlic, ginger, tomatoes, cream and spices",
-                "price": 18.95
+                "name": "Roghani Naan",
+                "description": "Bread with butter and sesame."
             },
             {
-                "name": "Lamb Coconut Kurma ★",
-                "description": "Lamb cooked with coconut milk, onions, garlic, ginger, tomatoes, cashew nuts, golden raisins and spices",
-                "price": 18.95
+                "name": "Tandoori Roti",
+                "description": "Made with whole wheat."
             },
             {
-                "name": "Lamb Saag",
-                "description": "Lamb cooked with spinach, onions, garlic, ginger, cream and spices",
-                "price": 18.95
+                "name": "Plain Naan",
+                "description": "Made with all purpose flour."
             },
             {
-                "name": "Lamb Curry",
-                "description": "Traditional dish cooked with lamb, onions, garlic, ginger, tomatoes and curry spices",
-                "price": 18.95
-            },
-            {
-                "name": "Rogan Josh",
-                "description": "Lamb cooked with onions, garlic, ginger, tomatoes, ground cashews, cream and spices",
-                "price": 18.95
-            },
-            {
-                "name": "Lamb Vindaloo",
-                "description": "Lamb cooked with potatoes, onions, tomatoes, garlic, ginger, vinegar and spices",
-                "price": 18.95
-            },
-            {
-                "name": "Lamb Mushroom",
-                "description": "Lamb cooked with fresh mushrooms, tomatoes, onion, garlic, ginger and spices",
-                "price": 18.95
-            },
-            {
-                "name": "Lamb Briyani",
-                "description": "Basmati rice cooked with lamb, onions, garlic, ginger, cashew nuts, raisins, and spices served with side of raita",
-                "price": 19.95
+                "name": "Garlic Naan",
+                "description": ""
             }
         ]
     },
     {
-        "name": "SEAFOOD",
+        "name": "DRINKS",
         "description": "",
         "items": [
             {
-                "name": "Shrimp Masala ★",
-                "description": "Grilled shrimp cooked with onions, bell peppers, tomatoes, garlic, ginger, cream and spices",
-                "price": 19.95
+                "name": "Karak Chai",
+                "description": "Made with milk and black tea."
             },
             {
-                "name": "Shrimp Coconut Kurma ★",
-                "description": "Shrimp cooked with coconut milk, onions, garlic, ginger, tomatoes, cashew nuts, golden raisins and spices",
-                "price": 19.95
+                "name": "Mango Lassi",
+                "description": ""
             },
             {
-                "name": "Assam Pineapple Shrimp",
-                "description": "Shrimp cooked with pineapple, onions, garlic, ginger, tomatoes, coconut cream and spices",
-                "price": 19.95
+                "name": "Plane Lassi",
+                "description": ""
             },
             {
-                "name": "Shrimp Curry",
-                "description": "Traditional dish cooked with shrimp, onions, garlic, ginger, tomatoes and curry spices",
-                "price": 19.95
+                "name": "Salty Lassi",
+                "description": ""
             },
             {
-                "name": "Fish Curry",
-                "description": "Halibut cooked with curry spices, onions, garlic, ginger, coconut milk and tamarind",
-                "price": 24.95
+                "name": "Sweet Lassi",
+                "description": ""
             }
         ]
     },
     {
-        "name": "VEGETARIAN & VEGAN (V)",
+        "name": "KID'S MENU",
         "description": "",
         "items": [
             {
-                "name": "Vegetable Masala ★",
-                "description": "Mixed vegetables cooked with onions, tomatoes, garlic, ginger, cream and spices",
-                "price": 15.95
+                "name": "Chicken Tenders",
+                "description": "Batter-fried chicken served with French fries."
             },
             {
-                "name": "Paneer Masala ★",
-                "description": "Homemade cheese cooked with bell pepper, onions, tomatoes, garlic, ginger, cream and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Mattar Paneer",
-                "description": "Green peas and homemade cheese cubes cooked with onions, tomatoes, garlic, ginger and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Saag Paneer",
-                "description": "Spinach cooked with homemade cheese, onions, garlic, ginger, tomatoes, cream and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Saag Aloo",
-                "description": "Spinach cooked with potatoes, onions, garlic, ginger, tomatoes, cream and spices",
-                "price": 15.95
-            },
-            {
-                "name": "Malai Kofta",
-                "description": "Vegetable balls cooked with onions, tomatoes, cashew nuts, golden raisins, cream and spices",
-                "price": 16.95
-            },
-            {
-                "name": "Baygan Bharta",
-                "description": "Roasted eggplant cooked with green peas, onions, garlic, ginger, tomatoes, spices and a touch of cream",
-                "price": 15.95
-            },
-            {
-                "name": "Mushroom Makhani",
-                "description": "Royal dish made with fresh mushroom, onion, garlic, ginger, tomatoes, butter, cream and spices",
-                "price": 15.95
-            },
-            {
-                "name": "Mixed Vegetable Curry (V)",
-                "description": "Traditional dish of mixed vegetables cooked with onions, garlic, ginger, tomatoes and spices",
-                "price": 15.95
-            },
-            {
-                "name": "Vegetable Coconut Kurma(V) ★",
-                "description": "Mixed vegetables cooked with onions, tomatoes, cashew nuts, golden raisins, coconut milk and spices",
-                "price": 15.95
-            },
-            {
-                "name": "Coconut Tofu (V)",
-                "description": "tofu cooked with bell pepper, onions, garlic, ginger, and spices in a coconut milk sauce",
-                "price": 14.95
-            },
-            {
-                "name": "Aloo Mattar (V)",
-                "description": "Potatoes and green peas cooked with onions, tomatoes, garlic, ginger and spices",
-                "price": 14.95
-            },
-            {
-                "name": "Aloo Gobi (V)",
-                "description": "Potatoes and cauliflower cooked with onions, tomatoes, garlic, ginger and spices",
-                "price": 14.95
-            },
-            {
-                "name": "Daman Bhindi (V)",
-                "description": "okra cooked with, onions, garlic, ginger, tomatoes, coconut milk and spices",
-                "price": 15.95
-            },
-            {
-                "name": "Mattar Mushroom (V)",
-                "description": "Fresh mushrooms cooked with green peas, onions, garlic, ginger, tomatoes and spices",
-                "price": 15.95
-            },
-            {
-                "name": "Channa Masala (V)",
-                "description": "Garbanzo beans (chickpeas) cooked with onions, garlic, ginger, tomatoes and spices",
-                "price": 14.95
-            },
-            {
-                "name": "Daal Maharani (V)",
-                "description": "Urad daal (black lentils) cooked with onions, garlic, ginger, tomatoes and spices to a thick sauce",
-                "price": 14.95
-            },
-            {
-                "name": "Yellow Daal (V) (V)",
-                "description": "Toor daal (yellow lentils) cooked with onions, garlic, ginger, tomatoes and spices",
-                "price": 14.95
-            },
-            {
-                "name": "Vegetable Briyani",
-                "description": "Basmati rice cooked with vegetables, onions, garlic, ginger, cashew nuts, golden raisins and spices. served with side of raita.",
-                "price": 16.95
+                "name": "Chicken Nuggets",
+                "description": "Chicken nuggets served with French fries."
             }
         ]
     },
     {
-        "name": "INDIAN FLAT BREADS",
-        "sectionId": "NAAN",
+        "name": "VEGETABLES SPECIAL",
         "description": "",
         "items": [
             {
-                "name": "Naan (G)(V)",
-                "description": "teardrop-shaped white flat bread baked in a tandoor",
-                "price": 2.95
+                "name": "Palak Paneer",
+                "description": ""
             },
             {
-                "name": "Garlic Naan (G)(V) ★",
-                "description": "teardrop-shaped white flat bread with a touch of garlic baked in a tandoor",
-                "price": 3.75
+                "name": "Dal Tarka",
+                "description": ""
             },
             {
-                "name": "Peshawari Naan (G)(V)",
-                "description": "white flat bread stuffed with a mix of coconut, raisins and cashew nuts baked in a tandoor",
-                "price": 4.95
+                "name": "Chana Masala",
+                "description": ""
             },
             {
-                "name": "Tandoori Roti (G)(V)",
-                "description": "thin round-shaped whole wheat bread baked in a tandoor",
-                "price": 2.95
+                "name": "Mix Vegetables",
+                "description": ""
             }
         ]
     },
     {
-        "name": "DESSERTS",
+        "name": "HOUSE SPECIAL",
+        "name": "HOUSE SPECIAL",
         "description": "",
         "items": [
             {
-                "name": "Mango Ice Cream ★",
-                "description": "favorite homemade Indian ice cream made with Indian mango pulp, vanilla and cream",
-                "price": 5.25
+                "name": "Nihari",
+                "description": ""
             },
             {
-                "name": "Kheer",
-                "description": "cardamom-flavored rice pudding garnished with cashew nuts and golden raisins",
-                "price": 4.95
+                "name": "Mutton Paya",
+                "description": ""
             },
             {
-                "name": "Gulab Jamun (G)",
-                "description": "a light pastry made from dry milk and flour, and soaked in rose flavored syrup",
-                "price": 4.95
+                "name": "Palak Gosht",
+                "description": ""
             },
             {
-                "name": "Kulfi",
-                "description": "homemade Indian ice cream with pistachios, cashew nuts, cardamom seeds and cream",
-                "price": 5.25
+                "name": "Shahi Haleem",
+                "description": ""
+            },
+            {
+                "name": "Tawa Keema Lamb",
+                "description": ""
             }
         ]
     }
 ]
+
 function getFirstWord(sentence) {
     // Remove leading and trailing whitespaces
     const trimmedSentence = sentence.trim();
@@ -485,7 +259,8 @@ function renderCategory(category) {
 
     const section = document.createElement("section");
     section.className = 'menu-section'
-    const sectionNameForFooter = category.sectionId || getFirstWord(category.name)
+    // const sectionNameForFooter = category.sectionId || getFirstWord(category.name)
+    const sectionNameForFooter = category.name
     section.id = sectionNameForFooter;
 
     sectionContainer.appendChild(section);
@@ -514,13 +289,15 @@ function renderCategory(category) {
             thisDiv.appendChild(description);
         }
 
-        const price = document.createElement("h3");
-        // price.className = "price";
-        price.className = "btn-text label-2";
-        price.textContent = "$" + item.price.toFixed(2);
-        thisDiv.appendChild(price);
+        // const price = document.createElement("h3");
+        // // price.className = "price";
+        // price.className = "btn-text label-2";
+        // price.textContent = "$" + item.price.toFixed(2);
+        // thisDiv.appendChild(price);
+
+
         section.appendChild(thisDiv)
-        // section.appendChild(document.createElement("br"));
+        // // section.appendChild(document.createElement("br"));
 
     });
     const fullMenuDiv = document.getElementById("full_menu")

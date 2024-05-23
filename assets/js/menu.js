@@ -24,7 +24,7 @@ const jsonData = [
                 "price": 4.95
             },
             {
-                "name": "Mango Lemonade (One free refill)",
+                "name": "Mango Lemonade",
                 "description": '',
                 "price": 3.95
             },
@@ -49,7 +49,7 @@ const jsonData = [
                 "price": 2.95
             },
             {
-                "name": "Fort Lime",
+                "name": "Taj Lime",
                 "description": "sweetened, homemade lime juice blended with club soda and spices",
                 "price": 3.95
             },
@@ -223,7 +223,12 @@ const jsonData = [
                 "name": "Chicken Briyani",
                 "description": "Basmati rice cooked with chicken, onions, garlic, ginger, cashew nuts, raisins and spices served with side of raita",
                 "price": 17.95
-            }
+            },
+            {
+                "name": "Mango Chicken(New)",
+                "description": "Beast meat cooked with mango, tomatoes, onions, garlic, ginger, coconut milk and spices",
+                "price": 16.95
+            },
         ]
     },
     {

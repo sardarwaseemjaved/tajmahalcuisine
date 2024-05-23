@@ -226,7 +226,7 @@ const jsonData = [
             },
             {
                 "name": "Mango Chicken(New)",
-                "description": "Beast meat cooked with mango, tomatoes, onions, garlic, ginger, coconut milk and spices",
+                "description": "Breast meat cooked with mango, tomatoes, onions, garlic, ginger, coconut milk and spices",
                 "price": 16.95
             },
         ]

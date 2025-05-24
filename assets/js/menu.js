@@ -1,232 +1,337 @@
 const jsonData = [
     {
-        "name": "APPETIZER",
-        "description": "",
+        "name": "APPETIZERS NON-VEG",
+        "description": "A selection of flavorful non-vegetarian starters to whet your appetite.",
         "items": [
             {
-                "name": "Samosa",
-                "description": "Traditional triangular pastries stuffed with spicy filling"
+                "name": "Chicken 143",
+                "description": "Spicy chicken dish, named for its unique preparation.",
+                "price": 16.99
             },
             {
-                "name": "Vegetable Pakoras",
-                "description": "Potatoes, eggplant, and onions wrapped in gram flour batter, fried to perfection"
+                "name": "Chicken 99",
+                "description": "A delicious chicken preparation with a distinct flavor profile.",
+                "price": 16.99
             },
             {
-                "name": "Pakora",
-                "description": ""
+                "name": "Chicken 65",
+                "description": "Deep-fried spicy chicken appetizer, a popular South Indian snack.",
+                "price": 16.99
+            },
+            {
+                "name": "Chicken Chili",
+                "description": "Wok-tossed chicken with bell peppers and onions in a spicy chili sauce.",
+                "price": 17.99
+            },
+            {
+                "name": "Garlic Chicken",
+                "description": "Tender chicken pieces infused with aromatic garlic and spices.",
+                "price": 18.99
+            },
+            {
+                "name": "Chicken Pakoda",
+                "description": "Chicken pieces dipped in a spiced gram flour batter and deep-fried until crispy.",
+                "price": 15.99
+            },
+            {
+                "name": "Chicken Lollipop",
+                "description": "Frenched chicken drumettes, marinated and deep-fried or baked until juicy.",
+                "price": 19.99
+            },
+            {
+                "name": "Apply Chicken Lollipop",
+                "description": "A unique variation of chicken lollipop with a special twist.",
+                "price": 21.99
+            },
+            {
+                "name": "Chicken Crispy",
+                "description": "Crispy fried chicken pieces, seasoned to perfection.",
+                "price": 19.99
+            },
+            {
+                "name": "Chicken Pepper Fry",
+                "description": "Chicken stir-fried with freshly ground black pepper and aromatic spices.",
+                "price": 19.99
+            },
+            {
+                "name": "Shrimp Pepper Fry",
+                "description": "Succulent shrimp stir-fried with black pepper and a blend of spices.",
+                "price": 22.99
+            },
+            {
+                "name": "Shrimp Chili",
+                "description": "Wok-tossed shrimp with bell peppers and onions in a spicy chili sauce.",
+                "price": 24.99
+            },
+            {
+                "name": "Shrimp Crispy",
+                "description": "Crispy fried shrimp, a delightful seafood appetizer.",
+                "price": 24.99
+            },
+            {
+                "name": "Shrimp 65",
+                "description": "Spicy deep-fried shrimp, similar to the popular chicken 65.",
+                "price": 19.99
+            },
+            {
+                "name": "Shrimp 143",
+                "description": "A special shrimp preparation with a unique blend of flavors.",
+                "price": 19.99
+            },
+            {
+                "name": "Shrimp 99",
+                "description": "A flavorful shrimp appetizer with a distinctive taste.",
+                "price": 19.99
+            },
+            {
+                "name": "Goat Pepper Fry",
+                "description": "Tender goat meat stir-fried with aromatic spices and a generous amount of black pepper.",
+                "price": 24.99
             }
         ]
     },
     {
-        "name": "KARAHI AND HANDI",
-        "description": "",
+        "name": "VEG APPETIZER",
+        "description": "Delicious vegetarian starters, perfect for sharing or as a light bite.",
         "items": [
             {
-                "name": "Chicken Ginger",
-                "description": "Boneless chicken thigh cooked with ginger in tomato gravy"
+                "name": "Mix Veg Chili",
+                "description": "Assorted vegetables cooked in a spicy chili sauce.",
+                "price": 14.99
             },
             {
-                "name": "Chicken Tikka Masala",
-                "description": "Chargrilled chicken pieces in tomato ginger, garlic butter, cream thick curry"
+                "name": "Mix Veg Crispy",
+                "description": "Crispy fried mixed vegetables, seasoned for a delightful crunch.",
+                "price": 16.99
             },
             {
-                "name": "Butter Chicken",
-                "description": "Tender boneless chicken cooked in butter in special saffron coloured sauce"
+                "name": "Mix Veg 143",
+                "description": "A unique blend of vegetables prepared with a special spice mix.",
+                "price": 16.99
             },
             {
-                "name": "Murgh Cholay",
-                "description": "Chicken prepared with chickpeas and spices"
+                "name": "Mix Veg 65",
+                "description": "Deep-fried mixed vegetables, tossed in a spicy sauce.",
+                "price": 14.99
             },
             {
-                "name": "Tawa Qeema - Lamb",
-                "description": "Minced lamb cooked with herbs and spices on a flat pan"
+                "name": "Mix 99",
+                "description": "A special mixed vegetable appetizer.",
+                "price": 14.99
             },
             {
-                "name": "Shahi Haleem (Beef)",
-                "description": "A special amalgamation of slow cooked beef, lentils and aromatic spices"
+                "name": "Mix Veg Pakoda",
+                "description": "Assorted vegetables dipped in a gram flour batter and deep-fried.",
+                "price": 11.99
             },
             {
-                "name": "Mutton Paya (Lamb)",
-                "description": "Traditional Pakistani dish of slow cooked mutton trotters in a mild gravy"
+                "name": "Gobi Chilli",
+                "description": "Crispy cauliflower florets tossed in a spicy and tangy chili sauce.",
+                "price": 14.99
             },
             {
-                "name": "Nihari",
-                "description": "Beef shank curry slow-cooked with special herbs and spices"
+                "name": "Gobi Crispy",
+                "description": "Fried cauliflower florets with a crispy coating.",
+                "price": 14.99
             },
             {
-                "name": "Palak Gosht (Lamb & Chicken)",
-                "description": "Creamy spinach with meat"
+                "name": "Gobi Pepper Fry",
+                "description": "Cauliflower stir-fried with black pepper and spices.",
+                "price": 16.99
             },
             {
-                "name": "Dal Gosht (Lamb & Chicken)",
-                "description": "Lentils cooked with meat, whole red chillies and fried onion"
+                "name": "Paneer Chilli",
+                "description": "Cubes of Indian cottage cheese stir-fried with bell peppers and onions in a spicy chili sauce.",
+                "price": 18.99
             },
             {
-                "name": "Chicken Handi",
-                "description": "Chicken cubes cooked in spices, butter, cream and tomato gravy (achari option with pickles)"
+                "name": "Paneer Crispy",
+                "description": "Crispy fried paneer cubes, seasoned to perfection.",
+                "price": 18.99
             },
             {
-                "name": "Handi (Mutton)",
-                "description": "Mutton cubes cooked in spices, butter, cream and tomato gravy (achari option with pickles available)"
+                "name": "Paneer Pepper Fry",
+                "description": "Paneer cubes stir-fried with black pepper and aromatic spices.",
+                "price": 19.99
             },
             {
-                "name": "PESHAWARI KARAHI (Lamb & Chicken)",
-                "description": "Creating a delicious Peshawari Chicken Karahi is a journey through the flavors of Pakistan. This recipe hails from the city of Peshawar, known for its rich culinary heritage and vibrant spices. (For 2 people serving)"
+                "name": "Paneer 143",
+                "description": "A specially prepared paneer dish with a unique flavor.",
+                "price": 18.99
             },
             {
-                "name": "LAHORI KARAHI",
-                "description": "Lahori Karahi is a beloved dish hailing from the vibrant streets of Lahore, Pakistan. It’s a rich and aromatic curry cooked with tender lamb/chicken pieces and a medley of spices, creating a symphony of flavors that dance on your palate."
+                "name": "Paneer 65",
+                "description": "Deep-fried spicy paneer appetizer, a vegetarian favorite.",
+                "price": 18.99
+            },
+            {
+                "name": "Paneer 99",
+                "description": "A delightful paneer preparation with a distinctive taste.",
+                "price": 18.99
+            },
+            {
+                "name": "Baby Corn Chilli",
+                "description": "Crispy baby corn tossed in a spicy and tangy chili sauce.",
+                "price": 18.99
+            },
+            {
+                "name": "Baby Corn Crispy",
+                "description": "Fried baby corn with a crispy texture.",
+                "price": 18.99
+            },
+            {
+                "name": "Baby Corn Pepper Fry",
+                "description": "Baby corn stir-fried with black pepper and a blend of spices.",
+                "price": 19.99
             }
         ]
     },
     {
-        "name": "VEGETABLES",
-        "description": "",
+        "name": "TANDOORI SEAFOOD",
+        "description": "Fresh seafood marinated in traditional spices and cooked to perfection in a Tandoor (clay oven).",
         "items": [
             {
-                "name": "BAINGAN BHARTA",
-                "description": "A beloved dish in Indian cuisine, is a flavorful concoction of roasted eggplant mashed with green beans aromatic spices and vegetables."
+                "name": "Tandoori Pomfret",
+                "description": "Whole pomfret fish marinated in tandoori spices and cooked in a clay oven.",
+                "price": 22.99
             },
             {
-                "name": "Paalak",
-                "description": "Spinach cooked with onions, garlic, ginger, tomatoes, cream and spices"
+                "name": "Tandoori Pomfret Malai",
+                "description": "Pomfret fish marinated in a creamy, mild tandoori marinade and cooked in a clay oven.",
+                "price": 24.99
             },
             {
-                "name": "Daal",
-                "description": ""
+                "name": "Tandoori Pomfret Haryali",
+                "description": "Pomfret fish marinated in a vibrant green marinade of mint, cilantro, and spices, cooked in a clay oven.",
+                "price": 24.99
+            },
+            {
+                "name": "Shrimp Tikka",
+                "description": "Marinated shrimp skewered and grilled in the tandoor.",
+                "price": 17.99
+            },
+            {
+                "name": "Shrimp Malai Tikka",
+                "description": "Shrimp marinated in a rich, creamy, and mildly spiced mixture, then cooked in the tandoor.",
+                "price": 19.99
+            },
+            {
+                "name": "Shrimp Haryali Tikka",
+                "description": "Shrimp marinated in a refreshing green paste of mint, cilantro, and spices, cooked in the tandoor.",
+                "price": 19.99
             }
         ]
     },
     {
-        "name": "RICE",
-        "description": "",
+        "name": "TANDOORI",
+        "description": "Delicacies cooked in a traditional clay oven, offering a smoky flavor and tender texture.",
         "items": [
             {
-                "name": "Biryani",
-                "description": "Biryani is a mixed rice dish, mainly popular in South Asia. It is made with rice, some type of meat and spices. To cater to vegetarians, in some cases, it is prepared by substituting vegetables for the meat. Sometimes eggs and/or potatoes are also added. Biryani is known for its aroma and flavor. Fresh herbs, saffron, and basmati rice give it a sweet-floral aroma that hits the nose before you taste it. Whole garam masala, fried onions, and marinated meat provide warmth and subtle heat to the dish. Overall, it tastes like a savory, spiced rice pilaf."
+                "name": "Chicken Tandoori",
+                "description": "Classic chicken marinated in yogurt and spices, roasted in a Tandoor.",
+                "price": 18.99
             },
             {
-                "name": "Kabuli Pulao",
-                "description": "Qabeli palaw is a variety of pilaf made in Afghanistan. The core ingredients are steamed rice mixed with caramelized carrots and raisins as well as marinated lamb meat. Qabeli Palaw is commonly garnished with almonds and pistachios."
+                "name": "Chicken Tikka",
+                "description": "Boneless chicken pieces marinated in yogurt and spices, grilled in the Tandoor.",
+                "price": 15.99
             },
             {
-                "name": "Lamb Shank Qabuli",
-                "description": "Lamb shank seasoned with natural spices, raisons and carrots topping with basmati rice."
+                "name": "Chicken Malai Tikka",
+                "description": "Creamy and mildly spiced boneless chicken marinated and cooked in the Tandoor.",
+                "price": 18.99
             },
             {
-                "name": "Pulao Kabab",
-                "description": "A steaming plate of freshly cooked pulao, accompanied by two delectable Shami kababs, a fresh salad, and refreshing raita, along with two chicken pieces."
+                "name": "Chicken Haryali Tikka",
+                "description": "Chicken pieces marinated in a green paste of mint, cilantro, and spices, cooked in the Tandoor.",
+                "price": 18.99
+            },
+            {
+                "name": "Paneer Tikka",
+                "description": "Cubes of Indian cottage cheese marinated in spices and grilled in the Tandoor.",
+                "price": 17.99
+            },
+            {
+                "name": "Paneer Malai Tikka",
+                "description": "Paneer marinated in a creamy and mildly spiced mixture, then cooked in the Tandoor.",
+                "price": 19.99
+            },
+            {
+                "name": "Paneer Haryali Tikka",
+                "description": "Paneer marinated in a green paste of mint, cilantro, and spices, cooked in the Tandoor.",
+                "price": 19.99
+            }
+        ]
+    },
+    {
+        "name": "MAIN COURSE",
+        "description": "Hearty and flavorful rice dishes, perfect as a main meal or accompaniment.",
+        "items": [
+            {
+                "name": "Plain Rice",
+                "description": "Simple and perfectly cooked plain steamed rice.",
+                "price": 7.99
+            },
+            {
+                "name": "Jeera Rice",
+                "description": "Basmati rice flavored with cumin seeds.",
+                "price": 7.99
+            },
+            {
+                "name": "Lemon Rice",
+                "description": "Fragrant rice tossed with a tangy lemon seasoning and spices.",
+                "price": 7.99
+            },
+            {
+                "name": "Mix Veg Pulao",
+                "description": "Aromatic rice dish cooked with assorted fresh vegetables and mild spices.",
+                "price": 7.99
+            },
+            {
+                "name": "Bagara Rice",
+                "description": "A flavorful rice dish from Hyderabad, made with whole spices.",
+                "price": 7.99
+            },
+            {
+                "name": "Tamarind Rice",
+                "description": "Tangy and spicy rice preparation with a distinct tamarind flavor.",
+                "price": 7.99
             }
         ]
     },
     {
         "name": "NAAN AND ROTI",
-        "description": "",
+        "description": "Freshly baked Indian breads, perfect for scooping up curries.",
         "items": [
             {
-                "name": "Roghani Naan",
-                "description": "Bread with butter and sesame."
+                "name": "Garlic Naan",
+                "description": "Soft leavened bread infused with aromatic garlic.",
+                "price": 3.99
+            },
+            {
+                "name": "Butter Garlic Naan",
+                "description": "Soft leavened bread brushed with butter and infused with garlic.",
+                "price": 4.99
+            },
+            {
+                "name": "Chili Garlic Naan",
+                "description": "Leavened bread spiced with chili and garlic, for a fiery kick.",
+                "price": 4.99
+            },
+            {
+                "name": "Bullet Naan",
+                "description": "A spicy naan bread, often topped with green chilies.",
+                "price": 5.99
             },
             {
                 "name": "Tandoori Roti",
-                "description": "Made with whole wheat."
+                "description": "Made with whole wheat flour and cooked in a Tandoor.",
+                "price": 3.99
             },
             {
-                "name": "Plain Naan",
-                "description": "Made with all purpose flour."
-            },
-            {
-                "name": "Garlic Naan",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "name": "DRINKS",
-        "description": "",
-        "items": [
-            {
-                "name": "Karak Chai",
-                "description": "Made with milk and black tea."
-            },
-            {
-                "name": "Mango Lassi",
-                "description": ""
-            },
-            {
-                "name": "Plane Lassi",
-                "description": ""
-            },
-            {
-                "name": "Salty Lassi",
-                "description": ""
-            },
-            {
-                "name": "Sweet Lassi",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "name": "KID'S MENU",
-        "description": "",
-        "items": [
-            {
-                "name": "Chicken Tenders",
-                "description": "Batter-fried chicken served with French fries."
-            },
-            {
-                "name": "Chicken Nuggets",
-                "description": "Chicken nuggets served with French fries."
-            }
-        ]
-    },
-    {
-        "name": "VEGETABLES SPECIAL",
-        "description": "",
-        "items": [
-            {
-                "name": "Palak Paneer",
-                "description": ""
-            },
-            {
-                "name": "Dal Tarka",
-                "description": ""
-            },
-            {
-                "name": "Chana Masala",
-                "description": ""
-            },
-            {
-                "name": "Mix Vegetables",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "name": "HOUSE SPECIAL",
-        "name": "HOUSE SPECIAL",
-        "description": "",
-        "items": [
-            {
-                "name": "Nihari",
-                "description": ""
-            },
-            {
-                "name": "Mutton Paya",
-                "description": ""
-            },
-            {
-                "name": "Palak Gosht",
-                "description": ""
-            },
-            {
-                "name": "Shahi Haleem",
-                "description": ""
-            },
-            {
-                "name": "Tawa Keema Lamb",
-                "description": ""
+                "name": "Tandoori Butter Roti",
+                "description": "Whole wheat roti cooked in a Tandoor and brushed with butter.",
+                "price": 4.99
             }
         ]
     }
@@ -289,11 +394,11 @@ function renderCategory(category) {
             thisDiv.appendChild(description);
         }
 
-        // const price = document.createElement("h3");
-        // // price.className = "price";
-        // price.className = "btn-text label-2";
-        // price.textContent = "$" + item.price.toFixed(2);
-        // thisDiv.appendChild(price);
+        const price = document.createElement("h3");
+        // price.className = "price";
+        price.className = "btn-text label-2";
+        price.textContent = "$" + item.price.toFixed(2);
+        thisDiv.appendChild(price);
 
 
         section.appendChild(thisDiv)

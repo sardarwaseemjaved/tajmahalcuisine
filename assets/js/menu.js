@@ -39,7 +39,7 @@ const jsonData = [
                 "price": 19.99
             },
             {
-                "name": "Apply Chicken Lollipop",
+                "name": "Apple Chicken Lollipop",
                 "description": "A unique variation of chicken lollipop with a special twist.",
                 "price": 21.99
             },
@@ -264,7 +264,240 @@ const jsonData = [
         ]
     },
     {
-        "name": "MAIN COURSE",
+        "name": "LAMB/GOAT",
+        "description": "A flavorful selection of Lamb/Goat dishes simmered in rich gravies and aromatic spices, showcasing traditional recipes from across India.",
+        "items": [
+            {
+                "name": "Lamb/Goat Boti Masala",
+                "description": "Lamb/Goat cooked with bell peppers, onions, garlic,\nginger, tomatoes, cream and spices",
+                "price": 18.95
+            },
+            {
+                "name": "Lamb/Goat Saag",
+                "description": "Lamb/Goat cooked with spinach, onions, garlic, ginger,\ncream and spices",
+                "price": 18.95
+            },
+            {
+                "name": "Lamb/Goat Mushroom",
+                "description": "Lamb/Goat cooked with fresh mushrooms, tomatoes, onion, garlic,\nginger and spices",
+                "price": 18.95
+            },
+            {
+                "name": "Lamb/Goat Coconut Korma",
+                "description": "Lamb/Goat cooked with coconut milk, onions, garlic, ginger,\ntomatoes, cashew nuts, golden raisins and spices",
+                "price": 18.95
+            },
+            {
+                "name": "Lamb/Goat Curry",
+                "description": "Traditional dish cooked with Lamb/Goat, onions, garlic, ginger\n, tomatoes and curry spices",
+                "price": 18.95
+            },
+            {
+                "name": "Lamb/Goat Vindaloo",
+                "description": "Lamb/Goat cooked with potatoes, onions, tomatoes, garlic\n, ginger, vinegar and spices",
+                "price": 18.95
+            },
+            {
+                "name": "Lamb/Goat Biryani",
+                "description": "Traditional dish cooked with boneless chicken, potatBasmati rice\ncooked with Lamb/Goat, onions, garlic, ginger, cashew nuts, raisins, and\nspices served with side of raita oes, garlic, ginger, tomato and curry\nspices",
+                "price": 19.95
+            }]
+    },
+    {
+        "name": "CHICKEN",
+        "description": "A variety of classic and contemporary chicken dishes prepared with fragrant herbs, spices, and creamy sauces, offering bold and comforting flavors.",
+        "items": [
+            {
+                "name": "Butter Chicken",
+                "description": "Tender chicken pieces simmered in a rich and creamy tomato-based sauce, flavored with butter, spices, and herbs.",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Tikka Masala",
+                "description": "Tandoori chicken breast cooked with bell pepper, onions,\ntomatoes, garlic, ginger, cream and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Coconut Korma",
+                "description": "Chicken cooked with coconut milk, onion, garlic, tomatoes,\ngolden raisins and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Curry",
+                "description": "Traditional dish cooked with boneless chicken, garlic,\nginger, tomato and curry spices",
+                "price": 16.95
+            },
+            {
+                "name": "Pineapple Chicken",
+                "description": "Breast meat cooked with potatoes, pineapple, tomatoes,\nonions, garlic, ginger, coconut milk and spices.",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Biryani",
+                "description": "Basmati rice cooked with chicken, onions, garlic, ginger,\ncashew nuts, raisins and spices served with side of raita",
+                "price": 17.95
+            },
+            {
+                "name": "Chicken Makhani (Butter)",
+                "description": "Tandoori chicken cooked with onions, garlic, ginger, tomatoes,\ncashews nuts, golden raisins, butter, cream and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Saag",
+                "description": "Chicken cooked with spinach, onion, garlic, ginger, cream\nand spices",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Aloo",
+                "description": "Traditional dish cooked with boneless chicken, potatoes, garlic,\nginger, tomato and curry spices",
+                "price": 16.95
+            },
+            {
+                "name": "Chicken Mushroom",
+                "description": "Chicken thigh cooked with mushroom, bell pepper, onion,\ngarlic, ginger, tomatoes and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Mango Chicken(New)",
+                "description": "Breast meat cooked with mango, tomatoes,onions,garlic,\nginger,coconut milk and spices.",
+                "price": 16.95
+            }
+        ]
+    },
+    {
+        "name": "VEGETARIAN & VEGAN (V)",
+        "description": "A vibrant assortment of vegetarian and vegan dishes prepared with fresh vegetables, legumes, paneer, and aromatic spices. Comforting, flavorful, and satisfying for all diets.",
+        "items": [
+            {
+                "name": "Vegetable Masala",
+                "description": "Mixed vegetables cooked with onions, tomatoes, garlic, ginger, cream and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Mattar Paneer",
+                "description": "Green peas and homemade cheese cubes cooked with onions, tomatoes, garlic, ginger and spices.",
+                "price": 16.95
+            },
+            {
+                "name": "Saag Aloo",
+                "description": "Spinach cooked with potatoes, onions, garlic, ginger, tomatoes, cream and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Baygan Bharta",
+                "description": "Roasted eggplant cooked with green peas, onions, garlic, ginger, tomatoes, spices and a touch of cream",
+                "price": 15.95
+            },
+            {
+                "name": "Mixed Vegetable Curry (V)",
+                "description": "Traditional dish of mixed vegetables cooked with onions, garlic, ginger, tomatoes and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Mattar Mushroom (V)",
+                "description": "Fresh mushrooms cooked with green peas, onions, garlic, ginger, tomatoes and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Aloo Gobi (V)",
+                "description": "Potatoes and cauliflower cooked with onions, tomatoes, garlic, ginger and spices",
+                "price": 14.95
+            },
+            {
+                "name": "Daal Maharani (V)",
+                "description": "Urad daal (black lentils) cooked with onions, garlic, ginger, tomatoes and spices to a thick sauce",
+                "price": 14.95
+            },
+            {
+                "name": "Coconut Tofu (V)",
+                "description": "Tofu cooked with bell pepper, onions, garlic, ginger, and spices in a coconut milk sauce and a touch of cream",
+                "price": 14.95
+            },
+            {
+                "name": "Vegetable Biryani",
+                "description": "Basmati rice cooked with vegetables, onions, garlic, ginger, cashew nuts, golden raisins and spices. Served with side of raita.",
+                "price": 16.95
+            },
+            {
+                "name": "Paneer Masala",
+                "description": "Homemade cheese cooked with bell pepper, onions, tomatoes, garlic, ginger, cream and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Saag Paneer",
+                "description": "Spinach cooked with homemade cheese, onions, garlic, ginger, tomatoes, cream and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Malai Kofta",
+                "description": "Vegetable balls cooked with onions, tomatoes, cashew nuts, golden raisins, cream and spices",
+                "price": 16.95
+            },
+            {
+                "name": "Mushroom Makhani",
+                "description": "Royal dish made with fresh mushroom, onion, garlic, ginger, tomatoes, butter, cream and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Vegetable Coconut Kurma (V)",
+                "description": "Mixed vegetables cooked with onions, tomatoes, cashew nuts, golden raisins, coconut milk and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Daman Bhindi (V)",
+                "description": "Okra cooked with onions, garlic, ginger, tomatoes, coconut milk and spices",
+                "price": 15.95
+            },
+            {
+                "name": "Aloo Mattar (V)",
+                "description": "Potatoes and green peas cooked with onions, tomatoes, garlic, ginger and spices",
+                "price": 14.95
+            },
+            {
+                "name": "Channa Masala (V)",
+                "description": "Garbanzo beans (chickpeas) cooked with onions, garlic, ginger, tomatoes and spices",
+                "price": 14.95
+            },
+            {
+                "name": "Yellow Daal (V)",
+                "description": "Toor daal (yellow lentils) cooked with onions, garlic, ginger, tomatoes and spices",
+                "price": 14.95
+            }
+        ]
+    },
+    {
+        "name": "SEAFOOD",
+        "description": "A flavorful selection of coastal-inspired seafood dishes featuring shrimp and fish, expertly cooked with rich spices, herbs, and creamy sauces for a truly satisfying experience.",
+        "items": [
+            {
+                "name": "Shrimp Masala",
+                "description": "Grilled shrimp cooked with onions, bell peppers, tomatoes, garlic, ginger, cream and spice",
+                "price": 19.95
+            },
+            {
+                "name": "Assam Pineapple Shrimp",
+                "description": "Shrimp cooked with pineapple, onions, garlic, ginger, tomatoes, coconut cream and spices",
+                "price": 19.95
+            },
+            {
+                "name": "Fish Curry",
+                "description": "Halibut cooked with curry spices, onions, garlic, ginger, coconut milk and tamarind",
+                "price": 24.95
+            },
+            {
+                "name": "Shrimp Coconut Kurma",
+                "description": "Shrimp cooked with coconut milk, onions, garlic, ginger, tomatoes, cashew nuts, golden raisins and spices",
+                "price": 19.95
+            },
+            {
+                "name": "Shrimp Curry",
+                "description": "Traditional dish cooked with shrimp, onions, garlic, ginger, tomatoes and curry spices",
+                "price": 19.95
+            }
+        ]
+    },
+    {
+        "name": "RICE",
         "description": "Hearty and flavorful rice dishes, perfect as a main meal or accompaniment.",
         "items": [
             {
@@ -296,6 +529,68 @@ const jsonData = [
                 "name": "Tamarind Rice",
                 "description": "Tangy and spicy rice preparation with a distinct tamarind flavor.",
                 "price": 7.99
+            }
+        ]
+    },
+    {
+        "name": "DESSERTS",
+        "description": "Traditional Indian sweets and treats, offering a perfect balance of rich flavors, creamy textures, and fragrant spices to complete your meal.",
+        "items": [
+            {
+                "name": "Mango Ice Cream",
+                "description": "Favorite homemade Indian ice cream made with Indian mango pulp, vanilla and cream",
+                "price": 5.25
+            },
+            {
+                "name": "Gulab Jamun (G)",
+                "description": "A light pastry made from dry milk and flour, soaked in rose-flavored syrup",
+                "price": 4.95
+            },
+            {
+                "name": "Kheer",
+                "description": "Cardamom-flavored rice pudding garnished with cashew nuts and golden raisins",
+                "price": 4.95
+            },
+            {
+                "name": "Kulfi",
+                "description": "Homemade Indian ice cream with pistachios, cashew nuts, cardamom seeds and cream",
+                "price": 5.25
+            }
+        ]
+    },
+    {
+        "name": "BEVERAGES",
+        "description": "A refreshing selection of traditional Indian drinks, teas, soft beverages, and more to complement your meal.",
+        "items": [
+            {
+                "name": "Mango Lassi",
+                "description": "Refreshing yogurt drink blended with mangoes and homemade yogurt",
+                "price": 4.95
+            },
+            {
+                "name": "Rose Lassi",
+                "description": "Refreshing yogurt drink blended with rose essence and homemade yogurt",
+                "price": 4.95
+            },
+            {
+                "name": "Strawberry Lassi",
+                "description": "Refreshing yogurt drink blended with strawberries and homemade yogurt",
+                "price": 4.95
+            },
+            {
+                "name": "Indian Tea",
+                "description": "Traditional Indian-style tea with milk and spices",
+                "price": 3.50
+            },
+            {
+                "name": "Bottled Water",
+                "description": "Bottled mineral water",
+                "price": 1.99
+            },
+            {
+                "name": "Soft Drinks",
+                "description": "Coke, Diet Coke, Coke Zero, Sprite, Pepsi, Mountain Dew, Dr. Pepper",
+                "price": 2.50
             }
         ]
     },

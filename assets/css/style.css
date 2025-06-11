@@ -395,6 +395,23 @@ body.nav-active {
   z-index: 1;
 }
 
+.btn-small {
+  padding: 3px 5px;
+  line-height: normal;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+  transform: scaleX(1);
+}
+
+.order-btn-navbar {
+  display: block !important;
+  width: 100% !important;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-bottom: 20px;
+}
+
 .btn::before {
   content: "";
   position: absolute;
@@ -2248,7 +2265,6 @@ textarea.input-field {
     width: 100%;
     margin-inline: auto;
   }
-
 
 
   /**
